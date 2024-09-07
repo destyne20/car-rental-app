@@ -1,9 +1,8 @@
-import React, { useEffect, useState } from "react";
-import axios from "axios";
-import Model from "./ui/Model";
-import ModelSkeleton from "./ui/ModelSkeleton";
+import { useEffect, useState } from "react";
+import { Model } from "../Model";
+import { ModelSkeleton } from "../ModelSkeleton";
 
-const VehicleModels = ({
+export const VehicleModelsList = ({
   carModels,
   setCarModels,
   setBookingOpen,
@@ -90,5 +89,3 @@ const VehicleModels = ({
     </section>
   );
 };
-
-export default VehicleModels;

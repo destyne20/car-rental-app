@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from "react";
-import ModelHero from "../components/ui/ModelHero";
-import VehicleModels from "../components/VehicleModels";
-import Booking from "../components/Booking";
+import { useEffect, useState } from "react";
 import axios from "axios";
-import SuccessPopUp from "../components/ui/SuccessPopUp";
+import { ModelHero } from "../components/ModelHero";
+import { VehicleModelsList } from "../components/VehicleModelsList";
+import { Booking } from "../components/Booking";
+import { SuccessPopUp } from "../components/SuccessPopUp";
 
 const Models = () => {
   const [carModels, setCarModels] = useState([]);
@@ -37,7 +37,7 @@ const Models = () => {
         setSuccessOpen={setSuccessOpen}
       />
       <ModelHero />
-      <VehicleModels
+      <VehicleModelsList
         carModels={carModels}
         setCarModels={setCarModels}
         setBookingOpen={setBookingOpen}

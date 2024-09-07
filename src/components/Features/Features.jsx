@@ -1,10 +1,9 @@
-import React from "react";
-import Feature1 from "../assets/feature-1.png";
-import Feature2 from "../assets/feature-2.png";
-import Feature3 from "../assets/feature-3.png";
-import Feature from "./ui/Feature";
+import Feature1 from "../../assets/feature-1.png";
+import Feature2 from "../../assets/feature-2.png";
+import Feature3 from "../../assets/feature-3.png";
+import { Feature } from "../Feature";
 
-const Features = () => {
+export const Features = () => {
   return (
     <section id="features">
       <div className="container">
@@ -33,5 +32,3 @@ const Features = () => {
     </section>
   );
 };
-
-export default Features;

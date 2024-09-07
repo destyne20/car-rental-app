@@ -1,6 +1,4 @@
-import React from "react";
-
-const Banner = () => {
+export const Banner = () => {
   return (
     <section id="banner">
       <div className="banner__container">
@@ -13,5 +11,3 @@ const Banner = () => {
     </section>
   );
 };
-
-export default Banner;

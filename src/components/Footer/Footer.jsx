@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
-const Footer = () => {
-  const [emailAddress, setEmailAdress] = useState(null);
+export const Footer = () => {
+  const [emailAddress, setEmailAddress] = useState(null);
 
   function handleSubmit(event) {
     console.log("email address", emailAddress);
@@ -77,7 +77,7 @@ const Footer = () => {
                 type="email"
                 placeholder="Enter Email Address"
                 className="footer__email__form__input"
-                onChange={(event) => setEmailAdress(event.target.value)}
+                onChange={(event) => setEmailAddress(event.target.value)}
                 required
               />
               <button className="footer__email__form__submit">Subscribe</button>
@@ -88,5 +88,3 @@ const Footer = () => {
     </footer>
   );
 };
-
-export default Footer;

@@ -1,0 +1,1 @@
+export { ModelHero } from "./ModelHero";

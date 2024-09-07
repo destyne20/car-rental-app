@@ -1,6 +1,4 @@
-import React from "react";
-
-const Features = ({ image, title, paragraph }) => {
+export const Feature = ({ image, title, paragraph }) => {
   return (
     <div className="feature">
       <figure className="feature__img__wrapper">
@@ -11,5 +9,3 @@ const Features = ({ image, title, paragraph }) => {
     </div>
   );
 };
-
-export default Features;

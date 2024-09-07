@@ -1,11 +1,10 @@
-import React from "react";
-import HeaderBg from "../assets/header-bg.png";
-import HeaderCar from "../assets/header-car.png";
+import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleRight, faCircleCheck } from "@fortawesome/free-solid-svg-icons";
-import { Link } from "react-router-dom";
+import HeaderBg from "../../assets/header-bg.png";
+import HeaderCar from "../../assets/header-car.png";
 
-const Landing = () => {
+export const Landing = () => {
   return (
     <header>
       <div className="container">
@@ -50,5 +49,3 @@ const Landing = () => {
     </header>
   );
 };
-
-export default Landing;

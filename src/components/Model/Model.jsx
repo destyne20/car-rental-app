@@ -1,5 +1,3 @@
-import React from "react";
-import CarModel from "../../assets/model-img.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faCircleCheck,
@@ -7,7 +5,7 @@ import {
   faStar,
 } from "@fortawesome/free-solid-svg-icons";
 
-const Model = ({ model, setBookingOpen, setSelectedModel }) => {
+export const Model = ({ model, setBookingOpen, setSelectedModel }) => {
   return (
     <div
       className="model"
@@ -56,5 +54,3 @@ const Model = ({ model, setBookingOpen, setSelectedModel }) => {
     </div>
   );
 };
-
-export default Model;
