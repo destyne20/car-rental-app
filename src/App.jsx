@@ -1,22 +1,21 @@
-
 import Features from "./components/Features";
 import Footer from "./components/Footer";
 import Nav from "./components/Nav";
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Models from "./pages/Models";
 
 function App() {
   return (
     <Router>
-      <Nav/>
+      <Nav />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/models" element={<Models />} />
       </Routes>
       <Footer />
-      </Router>
+    </Router>
   );
 }
 
-export default App
+export default App;
