@@ -797,6 +797,7 @@ MODELS PAGE
   display: flex;
   flex-direction: column;
   gap: 20px;
+  cursor: pointer;
 }
 
 .model__img {
@@ -922,7 +923,7 @@ MODELS PAGE
   width: 100%;
   border-radius: 4px;
   height: 100%;
-  max-height: 56px; 
+  max-height: 56px;
 }
 
 /* Booking */
@@ -1012,11 +1013,21 @@ MODELS PAGE
 
 .form__item__select,
 .form__item__input {
+  cursor: pointer;
   padding: 8px;
   outline: none;
   border: 1px gray solid;
   border-radius: 4px;
   height: 48px;
+  width: 100%;
+}
+
+.form__item__select {
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAUCAMAAACtdX32AAAAdVBMVEUAAAD///8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAhMdQaAAAAJ3RSTlMAAAECAwQGBwsOFBwkJTg5RUZ4eYCHkJefpaytrsXGy8zW3+Do8vNn0bsyAAAAYElEQVR42tXROwJDQAAA0Ymw1p9kiT+L5P5HVEi3qJn2lcPjtIuzUIJ/rhIGy762N3XaThqMN1ZPALsZPEzG1x8LrFL77DHBnEMxBewz0fJ6LyFHTPL7xhwzWYrJ9z22AqmQBV757MHfAAAAAElFTkSuQmCC);
+  background-position: 100%;
+  background-repeat: no-repeat;
 }
 
 .form__item__submit {
@@ -1256,7 +1267,7 @@ MODELS PAGE
     width: 100%;
   }
 
-  .header__text__btn{
+  .header__text__btn {
     width: 100%;
   }
 
