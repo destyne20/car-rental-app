@@ -22,8 +22,6 @@ const Booking = ({
   const [pickupLocation, setPickupLocation] = useState(null);
   const [dropoffLocation, setDropoffLocation] = useState(null);
 
-  console.log("selectedModel", selectedModel);
-
   function handleSubmit(event) {
     if (!pickupDate || !dropoffDate || !pickupLocation || !dropoffLocation) {
       event.preventDefault();
