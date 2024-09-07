@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import {
   faCalendarAlt,
   faCar,
@@ -8,7 +8,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-const Booking = ({
+export const Booking = ({
   carModels,
   bookingOpen,
   setBookingOpen,
@@ -167,5 +167,3 @@ const Booking = ({
     </div>
   );
 };
-
-export default Booking;

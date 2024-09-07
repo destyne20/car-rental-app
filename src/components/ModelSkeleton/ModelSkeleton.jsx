@@ -1,6 +1,4 @@
-import React from "react";
-
-const ModelSkeleton = () => {
+export const ModelSkeleton = () => {
   return (
     <div className="model">
       <div className="skeleton model__img--skeleton"></div>
@@ -26,5 +24,3 @@ const ModelSkeleton = () => {
     </div>
   );
 };
-
-export default ModelSkeleton;

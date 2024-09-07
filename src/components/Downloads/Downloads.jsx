@@ -1,8 +1,7 @@
-import React from "react";
-import GooglePlay from "../assets/google-play.svg";
-import AppStore from "../assets/app-store.svg";
+import GooglePlay from "../../assets/google-play.svg";
+import AppStore from "../../assets/app-store.svg";
 
-const Downloads = () => {
+export const Downloads = () => {
   return (
     <section id="download">
       <div className="container">
@@ -45,5 +44,3 @@ const Downloads = () => {
     </section>
   );
 };
-
-export default Downloads;

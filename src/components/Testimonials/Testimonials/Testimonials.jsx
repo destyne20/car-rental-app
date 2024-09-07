@@ -1,11 +1,10 @@
-import React from "react";
-import Testimonial1 from "../assets/testimonial-1.jpg";
-import Testimonial2 from "../assets/testimonial-2.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faQuoteRight } from "@fortawesome/free-solid-svg-icons";
-import Testimonial from "./ui/Testimonial";
+import { Testimonial } from "../Testimonial";
+import Testimonial1 from "../../../assets/testimonial-1.jpg";
+import Testimonial2 from "../../../assets/testimonial-2.jpg";
 
-const Testimonials = () => {
+export const Testimonials = () => {
   return (
     <section id="testimonials">
       <div className="container">
@@ -37,5 +36,3 @@ const Testimonials = () => {
     </section>
   );
 };
-
-export default Testimonials;

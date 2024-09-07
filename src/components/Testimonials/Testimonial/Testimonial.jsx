@@ -1,8 +1,7 @@
-import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faQuoteRight } from "@fortawesome/free-solid-svg-icons";
 
-const Testimonial = ({ image, name, location, text }) => {
+export const Testimonial = ({ image, name, location, text }) => {
   return (
     <div className="testimonial">
       <p className="testimonial__review">{text}</p>
@@ -22,5 +21,3 @@ const Testimonial = ({ image, name, location, text }) => {
     </div>
   );
 };
-
-export default Testimonial;

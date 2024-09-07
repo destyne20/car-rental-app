@@ -1,12 +1,11 @@
-import React from "react";
-import ChooseCar from "../assets/choose-car.png";
-import Choose1 from "../assets/choose-1.png";
-import Choose2 from "../assets/choose-2.png";
-import Choose3 from "../assets/choose-3.png";
-import ChooseFeature from "./ui/ChooseFeature";
 import { Link } from "react-router-dom";
+import ChooseCar from "../../assets/choose-car.png";
+import Choose1 from "../../assets/choose-1.png";
+import Choose2 from "../../assets/choose-2.png";
+import Choose3 from "../../assets/choose-3.png";
+import { ChooseFeature } from "../ChooseFeature";
 
-const Choose = () => {
+export const Choose = () => {
   return (
     <section id="choose">
       <div className="container choose__row">
@@ -55,5 +54,3 @@ const Choose = () => {
     </section>
   );
 };
-
-export default Choose;

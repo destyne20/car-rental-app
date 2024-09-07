@@ -1,6 +1,4 @@
-import React from "react";
-
-const ModelHero = () => {
+export const ModelHero = () => {
   return (
     <header id="hero">
       <div className="hero-overlay">
@@ -14,5 +12,3 @@ const ModelHero = () => {
     </header>
   );
 };
-
-export default ModelHero;

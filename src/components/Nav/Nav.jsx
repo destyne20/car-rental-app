@@ -1,10 +1,10 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import NavLogo from "../assets/logo.png";
+import NavLogo from "../../assets/logo.png";
 
-const Nav = () => {
+export const Nav = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
@@ -84,5 +84,3 @@ const Nav = () => {
     </>
   );
 };
-
-export default Nav;

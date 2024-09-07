@@ -1,6 +1,4 @@
-import React from "react";
-
-const ChooseFeature = ({ image, title, paragraph }) => {
+export const ChooseFeature = ({ image, title, paragraph }) => {
   return (
     <div className="choose__feature">
       <figure className="choose__feature__img__wrapper">
@@ -13,5 +11,3 @@ const ChooseFeature = ({ image, title, paragraph }) => {
     </div>
   );
 };
-
-export default ChooseFeature;
